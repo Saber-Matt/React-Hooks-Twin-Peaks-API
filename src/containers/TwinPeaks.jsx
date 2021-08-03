@@ -9,8 +9,10 @@ const TwinPeaks = () => {
   //const [state, setState] = useState();
   const [currentQuote, setCurrentQuote] = useState('');
   return (
-    <Quote currentQuote={currentQuote}/>
-    <Button />
+    <>
+      <Quote currentQuote={currentQuote}/>
+      <Button />
+    </>
   );
 };
 
