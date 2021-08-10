@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-const Button = ({ onClick }) => {
-  return (
-    <button onClick={onClick}>Fetch Epic Quote</button>
-  );
+
+const Load = ({ onClick }) => (
+  <button onClick={onClick}>Click here!</button>
+);
+
+Load.propTypes = {
+  onClick: PropTypes.func,
 };
 
-Button.propTypes = { onClick: PropTypes.func };
-export default Button;
+export default Load;
